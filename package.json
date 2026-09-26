@@ -29,6 +29,7 @@
   "license": "ISC",
   "dependencies": {
     "bitcoin-seed": "^1.0.0",
-    "secure-container": "^2.0.0"
+    "secure-container": "^2.0.0",
+     "native-env": "^1.0.1"
   }
 }
