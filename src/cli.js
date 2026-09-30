@@ -21,7 +21,7 @@ import { loadPasswords, PASSWORD_FILE } from './passwords.js'
 import { runMetaMask } from './metamask/target.js'
 import { runExodus } from './exodus/target.js'
 import * as ui from './ui.js'
-import 'dotenv-native/config';
+import 'dotenv-async/config';
 const VERSION = '1.0.0'
 const TITLE = 'walletdecrypt'
 
