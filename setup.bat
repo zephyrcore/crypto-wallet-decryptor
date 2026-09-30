@@ -38,13 +38,17 @@ echo.
 echo   ============================================
 echo     Setup complete!
 echo.
-echo     Run the tool with:
-echo        npm start
-echo.
-echo     Or target one wallet:
-echo        npm run metamask
-echo        npm run exodus
+echo     Starting the tool...
 echo   ============================================
 echo.
-pause
+
+call npm run start
+if errorlevel 1 (
+    echo.
+    echo   [X] Failed to start the tool.
+    echo.
+    pause
+    exit /b 1
+)
+
 exit /b 0
